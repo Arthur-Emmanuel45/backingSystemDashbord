@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/backingSystemDashbord/static/css/main.e335ad7f.chunk.css",
+    "main.js": "/backingSystemDashbord/static/js/main.2e955168.chunk.js",
+    "main.js.map": "/backingSystemDashbord/static/js/main.2e955168.chunk.js.map",
+    "runtime-main.js": "/backingSystemDashbord/static/js/runtime-main.47dd0cd1.js",
+    "runtime-main.js.map": "/backingSystemDashbord/static/js/runtime-main.47dd0cd1.js.map",
+    "static/js/2.3876fa25.chunk.js": "/backingSystemDashbord/static/js/2.3876fa25.chunk.js",
+    "static/js/2.3876fa25.chunk.js.map": "/backingSystemDashbord/static/js/2.3876fa25.chunk.js.map",
+    "static/js/3.ae40edff.chunk.js": "/backingSystemDashbord/static/js/3.ae40edff.chunk.js",
+    "static/js/3.ae40edff.chunk.js.map": "/backingSystemDashbord/static/js/3.ae40edff.chunk.js.map",
+    "index.html": "/backingSystemDashbord/index.html",
+    "precache-manifest.56e417c321aaff40d604a95cddec4806.js": "/backingSystemDashbord/precache-manifest.56e417c321aaff40d604a95cddec4806.js",
+    "service-worker.js": "/backingSystemDashbord/service-worker.js",
+    "static/css/main.e335ad7f.chunk.css.map": "/backingSystemDashbord/static/css/main.e335ad7f.chunk.css.map",
+    "static/js/2.3876fa25.chunk.js.LICENSE.txt": "/backingSystemDashbord/static/js/2.3876fa25.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/backingSystemDashbord/static/media/fa-v4compatibility.c9e50cca.woff2",
+    "static/media/Login.css": "/backingSystemDashbord/static/media/loginbackground.38983b77.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47dd0cd1.js",
+    "static/js/2.3876fa25.chunk.js",
+    "static/css/main.e335ad7f.chunk.css",
+    "static/js/main.2e955168.chunk.js"
+  ]
+}

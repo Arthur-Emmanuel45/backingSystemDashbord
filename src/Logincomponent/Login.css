@@ -13,9 +13,7 @@ body {
     padding-top: 10px;
     margin-bottom: 0;
     box-shadow: 0 20px 5px -20px darkgray;
-    position: relative;
     opacity: 0.7;
-    z-index: -1000;
 }
 h1 {
     text-align: center;

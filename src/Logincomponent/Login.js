@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Login.css'
 import '../fontawesome-free-6.5.1-web/css/all.css'
+import imgLogo from '../Images/logo.png'
 import { Link, useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import {auth} from "../firebaseConfig";
@@ -39,7 +40,7 @@ const Login = () => {
         <div id='form-background' onSubmit={login}>
             <form>
                 <div id="header">
-                    <img src="../Images/Logo.png" alt="Logo"/>
+                    <img src={imgLogo} alt="Logo"/>
                     <h1>Login</h1>
                 </div>
                 <p>Hi, Welcome back</p>

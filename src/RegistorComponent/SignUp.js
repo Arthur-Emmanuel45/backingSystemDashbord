@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './signUp.css';
 import '../fontawesome-free-6.5.1-web/css/all.css';
+import imgLogo from '../Images/logo.png'
 import { Link, useNavigate } from "react-router-dom";
 import { createUserWithEmailAndPassword} from 'firebase/auth';
 import {auth} from "../firebaseConfig";
@@ -44,7 +45,7 @@ const SignUp = () => {
     return (
         <div id="register" onSubmit={register}>
             <div id="header">
-                <img src="../Images/Logo.png" alt="Logo"/>
+                <img src={imgLogo} alt="Logo"/>
                 <h1>Create an Account</h1>
             </div>
             <div className={styleErrorPassword ? "password-error" : ''} 
@@ -108,7 +109,7 @@ const SignUp = () => {
             <div id="alt-login">
                 <hr className="h-lines"/>
                 <i>Have an account</i>
-                <Link to={"/"}>
+                <Link to={"/backingSystemDashbord"}>
                     <i id="hrefLogin">Login</i>
                 </Link>
                 <hr className="h-lines"/>

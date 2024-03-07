@@ -1,6 +1,9 @@
 import React from "react";
 import './script.js';
 import './Dashboard.css';
+import imgLogo from '../Images/logo.png'
+import profilePic from '../Images/profile_pix.jpg'
+import map from '../Images/map.jpg'
 import '../fontawesome-free-6.5.1-web/css/all.css'
 import { signOut } from "firebase/auth";
 import { auth } from "../firebaseConfig.js";
@@ -17,7 +20,7 @@ const Dashboard = () => {
     return(
         <div id="home">
             <header>
-                <img src="../Images/logo.png" alt="logo" id="logo-img"/>
+                <img src={imgLogo} alt="logo" id="logo-img"/>
                 <div id="menu-mobile">
                     <i className="fa fa-bars"></i>
                 </div>
@@ -52,7 +55,7 @@ const Dashboard = () => {
             <section id="all-right">
                 <div id="user-account">
                     <div id="user-detiles">
-                        <img src="../Images/profile_pix.jpg" id="profile-pic" alt="profile pic"/>
+                        <img src={profilePic} id="profile-pic" alt="profile pic"/>
                         <div id="user">
                             <h5>Emmanuel Arthur</h5>
                             <p>Software engineering</p>
@@ -176,7 +179,7 @@ const Dashboard = () => {
                             <i className="fa fa-arrow-right"></i>
                         </div>
                         <div id="location">
-                            <img src="../Images/map.jpg" alt="map" id="map"/>
+                            <img src={map} alt="map" id="map"/>
                         </div>
                     </div>
                 </section>
